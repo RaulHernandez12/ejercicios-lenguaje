@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE correo [
+  <!ELEMENT correo (remitente+,destinatario+,asunto,mensaje)>
+  
+          <!ELEMENT remitente (nombre,email)>
+          
+          
+          <!ELEMENT destinatario (nombre,email)>
+         
+          
+          <!ELEMENT mensaje (parrafo,parrafo,parrafo)>
+          
+          <!ELEMENT nombre (#PCDATA)>
+          <!ELEMENT email (#PCDATA)>
+          <!ELEMENT asunto (#PCDATA)>
+          <!ELEMENT parrafo (#PCDATA)>
+]>          
+<correo>
+        <remitente>
+            <nombre>Jaime</nombre>
+            <email>jaime@gmail.com</email>
+        </remitente>
+        <destinatario>
+            <nombre>Alejandro</nombre>
+            <email>a@alu.medac.es</email>
+        </destinatario>
+        <asunto></asunto>
+        <mensaje>
+            <parrafo></parrafo>
+            <parrafo></parrafo>
+            <parrafo></parrafo>
+        </mensaje>
+</correo>
+

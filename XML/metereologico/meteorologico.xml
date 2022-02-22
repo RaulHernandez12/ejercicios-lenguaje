@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<temperaturas>
+	<poblacion nombre="Málaga">
+		<fecha>09/0l/2020</fecha>
+		<maxima>24</maxima>
+		<minima>l6</minima>
+		<viento>llkm/h</viento>
+		<prevision>nubes</prevision>
+	</poblacion>
+	<poblacion nombre="Málaga">
+		<fecha>11/07/2020</fecha>
+		<maxima>22</maxima>
+		<minima>l3</minima>
+		<viento>lOkm/h</viento>
+		<prevision>viento</prevision>
+	</poblacion>
+	<poblacion nombre="Bilbao">
+		<fecha>09/0l/2020</fecha>
+		<maxima>18</maxima>
+		<minima>14</minima>
+		<viento>2km/h</viento>
+		<prevision>lluvia</prevision>
+	</poblacion>
+	<poblacion nombre="Madrid">
+		<fecha>09/01/2020</fecha>
+		<maxima>35</maxima>
+		<minima>28</minima>
+		<viento>4km/h</viento>
+		<prevision>nubes</prevision>
+	</poblacion>
+</temperaturas>

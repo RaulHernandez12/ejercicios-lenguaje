@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Juego de dados</title>       
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <script type="text/javascript">
+            
+            var jugador1= 0;
+            var jugador2= 0;
+            document.write("<div><h1>Partida de dados</h1></div>");
+            document.write("<table>");
+            document.write("<tr><th> Jugador 1</th>");
+            document.write("<th> Jugador 2 </th></tr>");
+            for (i=1;i<=10;i++){
+                
+                var numero = Math.floor((Math.random()*6+1-1))+1;
+                var numero1 = Math.floor((Math.random()*6+1-1))+1;
+                if ( numero > numero1){
+                    jugador1++;
+                }else{
+                    jugador2++;
+                }
+                document.write("<tr><td>"+ numero +"</td>");
+                document.write("<td>"+ numero1 +"</td></tr>");
+                
+            }
+            document.write("</table>");
+            document.write("<h2>Puntuación total</h2>")
+            document.write("<p>JUGADOR 1: "+ jugador1+" puntos</p>");
+            document.write("<p>JUGADOR 2: "+ jugador2+" puntos</p>");
+            if (jugador1 == jugador2){
+                document.write("<h2>Empate</h2>")
+            }else if(jugador1 > jugador2 ){
+                document.write("<h2>Jugador 1</h2>")
+            }else{
+                document.write("<h2>Jugardor 2</h2>")
+            }
+        </script>
+    </head>
+    <body >   
+       
+        
+
+    </body>
+</html>

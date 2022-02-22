@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="concesionario" type="concesionario1">
+		<xs:complexType  name="concesionario1">
+			<xs:sequence>
+				<xs:element name="coche" type="tipocoche" maxOccurs="unbounded">			
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="marca" type="xs:string"/>
+							<xs:element name="modelo" type="xs:string"/>
+							<xs:choice>
+								<xs:element name="cilindrada" type="xs:decimal"/>
+								<xs:element name="caballos"	type="xs:integer"/>							
+							</xs:choice>
+							<xs:element name="combustible" type="xs:integer"/>
+							<xs:element name="precio" type="xs:double"/>
+							<xs:element name="año" type="xs:integer"/>
+							<xs:element name="color" type="xs:string"/>
+							<xs:element name="interesado" type="xs:string"/>
+							<xs:element name="fecha_limite" minOccurs="0"/>
+								<xs:complexType name="tipofecha_limite">
+									<xs:attribute name="fecha" type="xs:date" use="required"/>
+								</xs:complexType>
+						</xs:sequence>
+					<xs:attribute name="matricula" type="xs:string"/>
+					</xs:complexType>			
+				</xs:element>			
+			</xs:sequence>	
+		<xs:attribute name="provincia" type="xs:string"/>	
+		</xs:complexType>
+	
+	
+	
+	
+	
+	</xs:element>
+</xs:schema>

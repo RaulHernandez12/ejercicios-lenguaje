@@ -1,0 +1,41 @@
+h1{
+    color: blue;
+    margin-left: 35%;
+    width: 50%;
+    letter-spacing: 10px;
+    font-weight: 1000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 5px 5px yellow;
+}
+
+table{
+    margin-left: 25%;
+    width: 50%;
+    border-collapse: collapse;
+    border: solid 3px black;
+     
+}
+
+tr {
+    text-align: left;
+    border: solid 1px black;
+}
+#Precio{
+    text-align: right;
+}
+
+thead{
+    background-color:green;
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px 5px red;
+}
+
+tr:nth-child(odd):hover{
+    background-color: yellow;
+}
+
+tr:nth-child(even){
+    background-color: blue;
+}
+

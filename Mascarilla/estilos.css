@@ -1,0 +1,101 @@
+
+.total{
+    width: 800px;
+    margin: auto;
+    border:solid 8px blue;
+    height: 600px;
+}
+.masc{
+    background-color:cornflowerblue; 
+    margin-left: 10px;
+}
+
+.obl{   
+    background-color: blue;    
+    margin-left: 40px;
+}
+header{
+    width: 500px;
+}
+h1{
+    color: white;
+    float: left;
+    box-shadow: black 5px 5px 5px;
+    margin: 5px;
+    transform: rotate(-5deg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto{
+    float: left;
+    margin-top: 50px;
+    column-count: 2;
+    width: 580px;
+    margin-left: 20px;
+    
+}
+
+.imagen{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+.cuadro{
+    border: solid 2px red;
+    width: 750px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px; 
+    box-shadow: black 5px 5px 5px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.izq{
+    width: 373px;
+    float: left;
+    background-color: burlywood;
+    margin-bottom: 0px;
+    height: 211px;
+     
+}
+
+.der{
+    width: 373px;
+    float: right;
+    background-color: burlywood;  
+}
+
+h2{
+    border: solid 2px cornflowerblue;
+    color: cornflowerblue;
+    margin-left: 5px;
+    
+}
+
+.izq h2{
+    width: 150px;
+    box-shadow: black 5px 5px 5px;
+}
+
+.der h2{
+    width: 200px;
+    box-shadow: black 5px 5px 5px;
+}
+
+ul{
+    list-style-image: url(imagenes/Check.gif);    
+    
+}
+
+footer{
+    float: left;  
+         
+}
+
+.fin{
+    margin: 30px;
+    color: white;
+    background-color: cornflowerblue;
+    margin-left: 50px;
+}

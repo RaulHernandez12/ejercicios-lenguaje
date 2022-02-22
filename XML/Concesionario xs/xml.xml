@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<concesionario
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="concesionario.xsd"
+provincia="Malaga">
+	<coche matricula="6732KPC">
+		<marca>Seat</marca>
+		<modelo>Ateca</modelo>
+		<cilindrada>1.7</cilindrada>
+		<combustible>Diesel</combustible>
+		<precio>23.000€</precio>
+		<año>2018</año>
+		<color>negro</color>
+		<interesado>33358697A</interesado>
+		<interesado>305154557</interesado>
+		<fecha_limite fecha="2022-02-12"/>
+	</coche>
+</concesionario>

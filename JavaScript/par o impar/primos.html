@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Juego de dados</title>       
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <script type="text/javascript">
+            
+            var par=0;
+            var impar = -1;
+            var numero = 0;
+            numero = prompt("Esbriba un número");
+            
+            document.write("<div><h1>Distribución de números</h1></div>");
+            document.write("<div><h2>Del número 1 al " + numero +" la distribución de pares e impares es esta</h2></div>");
+            document.write("<table>");
+            document.write("<tr><th> pares</th>");
+            document.write("<th> impares </th></tr>");
+            
+            for (i=1;i<=numero/2;i++){                                            
+                    par = par + 2;
+                    document.write("<tr><td>" + par  + "</td>");
+                    impar = impar + 2 ;
+                    document.write("<td>" + impar + "</td></tr>");                     
+            }
+            
+            document.write("</table>")
+            document.write("<table>")
+                par= 0;
+                impar=-1;
+                
+            for(i=1;i<=numero;i++){              
+                if(i%1==0 && i%i==0){
+                    document.write("<td>El número " + i + " no es primo</td></tr>");                                
+            }else{
+                document.write("<td>El número " + i + "  es primo</td></tr>");
+            }
+        } 
+        </script>
+    </head>
+    <body >   
+       
+        
+
+    </body>
+</html>

@@ -1,0 +1,17 @@
+table{
+    border-collapse: collapse;
+     
+     
+     
+ }
+ th, td{
+     border: solid 1px black;
+     
+ }
+
+ div{
+     background-color: cornflowerblue;
+     width: 150px;
+     text-align: center;
+     border-radius: 5px;
+ }

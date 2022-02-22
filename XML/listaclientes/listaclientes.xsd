@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="listaclientes" type="tipolistaclientes"/>
+	
+		<xs:complexType name="tipolistaclientes">
+			
+			<xs:sequence>
+				<xs:element name="cliente" type="tipocliente" maxOccurs="unbounded"/> 
+			</xs:sequence>		
+		
+		</xs:complexType>
+		<xs:complexType name="tipocliente">
+			<xs:sequence>
+				<xs:element name="nombre" type="xs:string"/>
+				<xs:element name="apellidos" type="xs:string"/>
+				<xs:choice>
+					<xs:element name="dni" type="xs:string"/>
+					<xs:element name="nie" type="xs:string"/>
+				</xs:choice>
+				<xs:element name="compras" type="tipocompras"/>
+				<xs:element name="regalo" type="xs:string" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="español" type="xs:string" use="required"/>
+		</xs:complexType>
+		
+		<xs:simpleType name="tipodni">
+			<xs:restriction base="xs:string">
+				<xs:length value="9"/>
+			</xs:restriction>		
+		</xs:simpleType>
+		
+		<xs:simpleType name="tipocompras">
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="3000"/>
+				<xs:maxInclusive value="5000"/>
+			</xs:restriction>		
+		</xs:simpleType>
+		
+		<xs:simpleType name="tipoespañol">
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="si"/>
+				<xs:enumeration value="no"/>
+			</xs:restriction>		
+		</xs:simpleType>
+
+</xs:schema>

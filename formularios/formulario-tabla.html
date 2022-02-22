@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prueba tabla</title>       
+        <meta charset="UTF-8">
+        
+    </head>
+    <body>
+        <div align="center">
+            <img src="imagenes/medac.png" width="500" height="500">
+        </div>
+        <h2 align="center">Ejemplo de formulario:Matriculación en DAW</h2>
+        <table align="center"  border="2px" width="1000" >
+            <caption><b>Horario del curso (provisional)</b></caption>
+            <colgroup>
+                <col span="1" style="background: blue; width: 80px;">
+                <col span="5" style="background: green; width: 100px;">
+              </colgroup>
+            <thead>
+                <th>H/D</th>
+                <th>L</th>
+                <th>M</th>
+                <th>X</th>
+                <th>J</th>
+                <th>V</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>15:00-17:00</th>
+                    <td></td>
+                    <td>Lenguaje de Marcas</td>
+                    <td></td>
+                    <td>Sistemas Informáticos</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <th>17:00:17:30</th>
+                    <td colspan="5" align="center">Descanso</td>
+             
+                </tr>  
+                
+                <tr>
+                    <th>17:30-19:30</th>
+                    <td></td>
+                    <td>Sistemas informáticos</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr> 
+
+                <tr>      
+                    <th>19:30-21:30</th>
+                    <td>Sistemas Informáticos</td>
+                    <td></td>
+                    <td></td>
+                    <td>lenguaje de Marcas</td>
+                    <td></td>
+                </tr>
+           
+
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <form action="GET">
+            <b>Nombre:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" size="30px">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <b>Apelllidos:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" size="30px">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <b>Sexo</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="sexo"> M
+                &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="sexo"> H
+            <br>
+            <br>
+            <b>Fecha de Nacimiento:</b>
+            <select>
+                <option value="1">Día</option>
+                <option value="2">1</option>
+                <option value="3">2</option>
+                <option value="4">3</option>
+                <option value="5">4</option>
+                <option value="6">5</option>
+                <option value="7">6</option>
+                <option value="8">7</option>
+                <option value="9">8</option>
+                <option value="10">9</option>
+                <option value="11">10</option>
+                <option value="12">11</option>
+                <option value="13">12</option>
+                <option value="14">13</option>
+                <option value="15">14</option>
+                <option value="16">15</option>
+                <option value="17">16</option>
+                <option value="18">17</option>
+                <option value="19">18</option>
+                <option value="20">19</option>
+                <option value="21">20</option>
+                <option value="22">21</option>
+                <option value="23">22</option>
+                <option value="24">23</option>
+                <option value="25">24</option>
+                <option value="26">25</option>
+                <option value="27">26</option>
+                <option value="28">27</option>
+                <option value="29">28</option>
+            </select>
+            <select>
+                <option value="1">Mes</option>
+                <option value="2">Enero</option>
+                <option value="3">Febrero</option>
+                <option value="4">Marzo</option>
+                <option value="5">Abril</option>
+                <option value="6">Mayo</option>
+                <option value="7">Junio</option>
+                <option value="8">Julio</option>
+                <option value="9">Agosto</option>
+                <option value="10">Septiembre</option>
+                <option value="11">Octubre</option>
+                <option value="12">Noviembre</option>
+                <option value="13">Diciembre</option>
+                
+            </select>
+            <select>
+                <option value="1">Año</option>                
+                <option value="2">1990</option>
+                <option value="3">1991</option>
+                <option value="4">1992</option>
+                <option value="5">1993</option>
+                <option value="6">1994</option>
+                <option value="7">1995</option>
+                <option value="8">1996</option>
+                <option value="9">1997</option>
+                <option value="10">1998</option>
+                <option value="11">1999</option>
+                <option value="12">2000</option>
+                <option value="13">2001</option>
+            </select>
+            <br>
+            <br>
+            <b>Escoge los módulos en los que te matriculáste: </b> 
+            <br>
+            <br>
+        <table>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" name="matricula"> <b>Fundamentos de Hardware</b> </td>
+                    <td><input type="checkbox" name="matricula"> <b>Servicios de Red e Internet</b></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="matricula"> Gestión de base de datos</td>
+                    <td><input type="checkbox" name="matricula"> Administración de Sistemas Operativos</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="matricula"> Implantación de sistemas Operativos</td>
+                    <td><input type="checkbox" name="matricula"> Implantacion de aplicaciones Web </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="matricula"> Planificacion y Administracion de redes</td> 
+                    <td><input type="checkbox" name="matricula"> Administracion de sistemas gestores de base de datos</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="matricula"> Lenguaje de Marcas </td>
+                    <td><input type="checkbox" name="matricula"> Seguridad  </td>
+                </tr>
+                <tr>
+                   <td><input type="checkbox" name="matricula"> FOL</td> 
+                   <td><input type="checkbox" name="matricula"> Empresa</td> 
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="matricula"> Fundamentos de Hardware</td>
+                    <td><input type="checkbox" name="matricula"> Fundamentos de Hardware </td>
+                </tr>
+            </tbody>
+        </table>
+            <br>
+            <br>
+            <br>
+            <b>Estudios previos:</b>
+            <hr>
+            <textarea  rows="4" cols="100"></textarea>
+            <br>
+            <br>
+            <br>
+            <input type="button" name="Consultar" value="Consultar">
+            <input type="reset"  name="reset">
+            <input type="submit" name="enviar">
+            <br>
+            <b>Pulsa el boton enviar para formalizar la matricula o el boton de "restablecer" para limpiar el formulario</b>
+
+            
+        </form>
+    </body>
+</html>

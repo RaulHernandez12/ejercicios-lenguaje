@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<concesionario 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="concesionarioMejorado.xsd" 
+provincia="Granada">
+	<coche matricula="6327JVC">
+		<marca>Seat</marca>
+		<modelo>Ateca</modelo>
+		<cilindrada>1.7</cilindrada>
+		<combustible>Gasoil</combustible>
+		<precio>23.000€</precio>
+		<año>2000</año>
+		<color>negro</color>
+		<interesado>33333373A</interesado>
+		<interesado>33333333B</interesado>
+		<fecha_limite fecha="2022-02-12"/>
+	</coche>
+	<coche matricula="6327JVC">
+		<marca>Seat</marca>
+		<modelo>Ateca</modelo>
+		<caballos>80</caballos>
+		<combustible>Gasoil</combustible>
+		<precio>23.000€</precio>
+		<año>2000</año>
+		<color>negro</color>
+		<interesado>33333333A</interesado>
+	</coche>
+	
+</concesionario>

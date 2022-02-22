@@ -1,0 +1,939 @@
+<html>
+  <head>
+    <title>Menu HTML</title>
+    <style>
+            table{
+              border-collapse: collapse;
+              border: solid 2px black;
+              font-weight: bold;
+              width:500px;
+              float:left;
+              margin-left:70px;  
+              box-shadow: 10px 10px 10px 10px black;           
+            }
+            
+            caption{
+              background-color: #6262A0;
+              border: solid 1px black;
+            }
+            
+            th{
+              background-color: #6262A0;
+              border: solid 1px black;
+            }
+            
+            
+            tr:nth-child(odd){
+              background-color: #8FD4E8;
+              border:solid 1px black;              
+            }
+            tr:nth-child(even){
+              background-color: #3636A0;
+            }
+            
+             .visitante{
+            
+            vertical-align: middle;                        
+            }
+            
+             .local{           
+            vertical-align: middle;
+            }
+           
+           .izquierda{            
+            float:left;                        
+            }
+            
+             .derecha{            
+            float:right;                      
+            }
+            
+            .borde{
+            
+            border:solid 1px black;
+            text-align: center;            
+            }
+            
+            .clasificacion{
+           
+            text-align:center; 
+            width: 400px;
+            height: 588px; 
+            font-size: 20px;        
+            }
+            
+            .uno{
+            
+            text-align:left;          
+            }
+            thead{            
+            empty-cells:hide;          
+            }
+            
+            .foto{
+              width: 200px;
+             height: 150px
+                     
+            }
+            .quiniela{
+              width: 50px;
+              height: 50px;
+              vertical-align: middle;       
+            }
+            .resultado{
+                 border:solid 1px black; 
+                 text-align: center;   
+                 background-color:white;
+                 color:#F75D5D;
+            }
+             .jugador{
+                 position:absolute;
+                 margin-left:500px;
+                 margin-top:200px;
+                 opacity:0.8;
+            }
+            
+        </style>
+  </head>
+  <body>
+    <table>
+      <caption>Resultado de la jornada 38</caption>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/173.png"/>
+          <equipolocal id="92">Alavés</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>0</resultadolocal>-<resultadovisitante>5</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="4">Barcelona</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/178.png"/>
+        </td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/449.png"/>
+          <equipolocal id="132">Villarreal</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>4</resultadolocal>-<resultadovisitante>0</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="106">Eibar</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/953.png"/>
+        </td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/192.png"/>
+          <equipolocal id="20">Valladolid</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>2</resultadolocal>-<resultadovisitante>0</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="5">Betis</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/185.png"/>
+        </td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/5683.png"/>
+          <equipolocal id="201">Granada</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>4</resultadolocal>-<resultadovisitante>0</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="2">Athletic</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/174.png"/>
+        </td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/957.png"/>
+          <equipolocal id="111">Leganés</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>2</resultadolocal>-<resultadovisitante>2</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="14">R. Madrid</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/186.png"/>
+        </td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/855.png"/>
+          <equipolocal id="112">Levante</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>1</resultadolocal>-<resultadovisitante>0</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="109">Getafe</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/1450.png"/>
+        </td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/450.png"/>
+          <equipolocal id="117">Osasuna</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>2</resultadolocal>-<resultadovisitante>2</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="114">Mallorca</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/181.png"/>
+        </td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/179.png"/>
+          <equipolocal id="17">Sevilla</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>1</resultadolocal>-<resultadovisitante>0</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="21">Valencia</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/191.png"/>
+        </td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/177.png"/>
+          <equipolocal id="9">Espanyol</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>0</resultadolocal>-<resultadovisitante>0</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="6">Celta</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/176.png"/>
+        </td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/175.png"/>
+          <equipolocal id="3">Atlético</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>1</resultadolocal>-<resultadovisitante>1</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="15">R. Sociedad</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/188.png"/>
+        </td>
+      </tr>
+      <img src="ronaldo.png" class="jugador"/>
+    </table>
+    <table class="clasificacion">
+      <thead>
+        <th colspan="2">LFP 1 DIVISION</th>
+        <th colspan="6">
+          <img class="foto" src="imagen.jpg"/>
+        </th>
+      </thead>
+      <thead>
+        <th colspan="8">Clasificación de la jornada 38</th>
+      </thead>
+      <thead>
+        <th>Equipo</th>
+        <th>Puntos</th>
+        <th>PJ</th>
+        <th>PG</th>
+        <th>PP</th>
+        <th>PE</th>
+        <th>GF</th>
+        <th>GC</th>
+      </thead>
+      <tr>
+        <td class="uno">
+          <rank>1</rank>-<name>R. Madrid</name>
+        </td>
+        <td>
+          <points>87</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>26</won>
+        </td>
+        <td>
+          <lost>3</lost>
+        </td>
+        <td>
+          <drawn>9</drawn>
+        </td>
+        <td>
+          <goals_scored>70</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>25</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>2</rank>-<name>Barcelona</name>
+        </td>
+        <td>
+          <points>82</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>25</won>
+        </td>
+        <td>
+          <lost>6</lost>
+        </td>
+        <td>
+          <drawn>7</drawn>
+        </td>
+        <td>
+          <goals_scored>86</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>38</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>3</rank>-<name>Atlético</name>
+        </td>
+        <td>
+          <points>70</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>18</won>
+        </td>
+        <td>
+          <lost>4</lost>
+        </td>
+        <td>
+          <drawn>16</drawn>
+        </td>
+        <td>
+          <goals_scored>51</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>27</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>4</rank>-<name>Sevilla</name>
+        </td>
+        <td>
+          <points>70</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>19</won>
+        </td>
+        <td>
+          <lost>6</lost>
+        </td>
+        <td>
+          <drawn>13</drawn>
+        </td>
+        <td>
+          <goals_scored>54</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>34</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>5</rank>-<name>Villarreal</name>
+        </td>
+        <td>
+          <points>60</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>18</won>
+        </td>
+        <td>
+          <lost>14</lost>
+        </td>
+        <td>
+          <drawn>6</drawn>
+        </td>
+        <td>
+          <goals_scored>63</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>49</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>6</rank>-<name>R. Sociedad</name>
+        </td>
+        <td>
+          <points>56</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>16</won>
+        </td>
+        <td>
+          <lost>14</lost>
+        </td>
+        <td>
+          <drawn>8</drawn>
+        </td>
+        <td>
+          <goals_scored>56</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>48</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>7</rank>-<name>Granada</name>
+        </td>
+        <td>
+          <points>56</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>16</won>
+        </td>
+        <td>
+          <lost>14</lost>
+        </td>
+        <td>
+          <drawn>8</drawn>
+        </td>
+        <td>
+          <goals_scored>52</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>45</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>8</rank>-<name>Getafe</name>
+        </td>
+        <td>
+          <points>54</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>14</won>
+        </td>
+        <td>
+          <lost>12</lost>
+        </td>
+        <td>
+          <drawn>12</drawn>
+        </td>
+        <td>
+          <goals_scored>43</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>37</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>9</rank>-<name>Valencia</name>
+        </td>
+        <td>
+          <points>53</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>14</won>
+        </td>
+        <td>
+          <lost>13</lost>
+        </td>
+        <td>
+          <drawn>11</drawn>
+        </td>
+        <td>
+          <goals_scored>46</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>53</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>10</rank>-<name>Osasuna</name>
+        </td>
+        <td>
+          <points>52</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>13</won>
+        </td>
+        <td>
+          <lost>12</lost>
+        </td>
+        <td>
+          <drawn>13</drawn>
+        </td>
+        <td>
+          <goals_scored>46</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>54</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>11</rank>-<name>Athletic</name>
+        </td>
+        <td>
+          <points>51</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>13</won>
+        </td>
+        <td>
+          <lost>13</lost>
+        </td>
+        <td>
+          <drawn>12</drawn>
+        </td>
+        <td>
+          <goals_scored>41</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>38</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>12</rank>-<name>Levante</name>
+        </td>
+        <td>
+          <points>49</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>14</won>
+        </td>
+        <td>
+          <lost>17</lost>
+        </td>
+        <td>
+          <drawn>7</drawn>
+        </td>
+        <td>
+          <goals_scored>47</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>53</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>13</rank>-<name>Eibar</name>
+        </td>
+        <td>
+          <points>42</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>11</won>
+        </td>
+        <td>
+          <lost>18</lost>
+        </td>
+        <td>
+          <drawn>9</drawn>
+        </td>
+        <td>
+          <goals_scored>39</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>56</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>14</rank>-<name>Valladolid*</name>
+        </td>
+        <td>
+          <points>41</points>
+        </td>
+        <td>
+          <played>37</played>
+        </td>
+        <td>
+          <won>9</won>
+        </td>
+        <td>
+          <lost>14</lost>
+        </td>
+        <td>
+          <drawn>14</drawn>
+        </td>
+        <td>
+          <goals_scored>32</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>43</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>15</rank>-<name>Betis</name>
+        </td>
+        <td>
+          <points>41</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>10</won>
+        </td>
+        <td>
+          <lost>17</lost>
+        </td>
+        <td>
+          <drawn>11</drawn>
+        </td>
+        <td>
+          <goals_scored>48</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>60</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>16</rank>-<name>Alavés</name>
+        </td>
+        <td>
+          <points>39</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>10</won>
+        </td>
+        <td>
+          <lost>19</lost>
+        </td>
+        <td>
+          <drawn>9</drawn>
+        </td>
+        <td>
+          <goals_scored>34</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>59</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>17</rank>-<name>Celta*</name>
+        </td>
+        <td>
+          <points>36</points>
+        </td>
+        <td>
+          <played>37</played>
+        </td>
+        <td>
+          <won>7</won>
+        </td>
+        <td>
+          <lost>15</lost>
+        </td>
+        <td>
+          <drawn>15</drawn>
+        </td>
+        <td>
+          <goals_scored>37</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>49</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>18</rank>-<name>Leganés</name>
+        </td>
+        <td>
+          <points>36</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>8</won>
+        </td>
+        <td>
+          <lost>18</lost>
+        </td>
+        <td>
+          <drawn>12</drawn>
+        </td>
+        <td>
+          <goals_scored>30</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>51</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>19</rank>-<name>Mallorca</name>
+        </td>
+        <td>
+          <points>33</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>9</won>
+        </td>
+        <td>
+          <lost>23</lost>
+        </td>
+        <td>
+          <drawn>6</drawn>
+        </td>
+        <td>
+          <goals_scored>40</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>65</goals_conceded>
+        </td>
+      </tr>
+      <tr>
+        <td class="uno">
+          <rank>20</rank>-<name>Espanyol</name>
+        </td>
+        <td>
+          <points>25</points>
+        </td>
+        <td>
+          <played>38</played>
+        </td>
+        <td>
+          <won>5</won>
+        </td>
+        <td>
+          <lost>23</lost>
+        </td>
+        <td>
+          <drawn>10</drawn>
+        </td>
+        <td>
+          <goals_scored>27</goals_scored>
+        </td>
+        <td>
+          <goals_conceded>58</goals_conceded>
+        </td>
+      </tr>
+    </table>
+    <table>
+      <caption>
+        <img class="quiniela" src="quiniela.png"/> Temporada: <temporada>2019_20</temporada> - Jornada: 38</caption>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/173.png"/>
+          <equipolocal id="92">Alavés</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>0</resultadolocal>-<resultadovisitante>5</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="4">Barcelona</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/178.png"/>
+        </td>
+        <td class="resultado">1</td>
+        <td class="resultado">X</td>
+        <td class="resultado" style="background-color:#F75D5D;color:white">2</td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/449.png"/>
+          <equipolocal id="132">Villarreal</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>4</resultadolocal>-<resultadovisitante>0</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="106">Eibar</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/953.png"/>
+        </td>
+        <td class="resultado" style="background-color:#F75D5D;color:white">1</td>
+        <td class="resultado">X</td>
+        <td class="resultado">2</td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/192.png"/>
+          <equipolocal id="20">Valladolid</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>2</resultadolocal>-<resultadovisitante>0</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="5">Betis</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/185.png"/>
+        </td>
+        <td class="resultado" style="background-color:#F75D5D;color:white">1</td>
+        <td class="resultado">X</td>
+        <td class="resultado">2</td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/5683.png"/>
+          <equipolocal id="201">Granada</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>4</resultadolocal>-<resultadovisitante>0</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="2">Athletic</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/174.png"/>
+        </td>
+        <td class="resultado" style="background-color:#F75D5D;color:white">1</td>
+        <td class="resultado">X</td>
+        <td class="resultado">2</td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/957.png"/>
+          <equipolocal id="111">Leganés</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>2</resultadolocal>-<resultadovisitante>2</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="14">R. Madrid</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/186.png"/>
+        </td>
+        <td class="resultado">1</td>
+        <td class="resultado" style="background-color:#F75D5D;color:white">X</td>
+        <td class="resultado">2</td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/855.png"/>
+          <equipolocal id="112">Levante</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>1</resultadolocal>-<resultadovisitante>0</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="109">Getafe</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/1450.png"/>
+        </td>
+        <td class="resultado" style="background-color:#F75D5D;color:white">1</td>
+        <td class="resultado">X</td>
+        <td class="resultado">2</td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/450.png"/>
+          <equipolocal id="117">Osasuna</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>2</resultadolocal>-<resultadovisitante>2</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="114">Mallorca</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/181.png"/>
+        </td>
+        <td class="resultado">1</td>
+        <td class="resultado" style="background-color:#F75D5D;color:white">X</td>
+        <td class="resultado">2</td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/179.png"/>
+          <equipolocal id="17">Sevilla</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>1</resultadolocal>-<resultadovisitante>0</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="21">Valencia</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/191.png"/>
+        </td>
+        <td class="resultado" style="background-color:#F75D5D;color:white">1</td>
+        <td class="resultado">X</td>
+        <td class="resultado">2</td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/177.png"/>
+          <equipolocal id="9">Espanyol</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>0</resultadolocal>-<resultadovisitante>0</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="6">Celta</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/176.png"/>
+        </td>
+        <td class="resultado">1</td>
+        <td class="resultado" style="background-color:#F75D5D;color:white">X</td>
+        <td class="resultado">2</td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          <img class="local" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/175.png"/>
+          <equipolocal id="3">Atlético</equipolocal>
+        </td>
+        <td class="borde">
+          <resultadolocal>1</resultadolocal>-<resultadovisitante>1</resultadovisitante>
+        </td>
+        <td class="derecha">
+          <equipovisitante id="15">R. Sociedad</equipovisitante>
+          <img class="visitante" src="https://e00-marca.uecdn.es/assets/datos-deportivos/escudos/opta/png/ios/28px/2x/188.png"/>
+        </td>
+        <td class="resultado">1</td>
+        <td class="resultado" style="background-color:#F75D5D;color:white">X</td>
+        <td class="resultado">2</td>
+      </tr>
+    </table>
+  </body>
+</html>

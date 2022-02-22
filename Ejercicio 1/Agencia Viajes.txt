@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Viajes Paraiso</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Agencia Paraiso">
+        <meta name="keywords" content="viajes, paraiso, caribe, ">
+    </head>
+
+    <body>
+        <STRONG><h1 align= center>AGENCIA DE VIAJES PARAISO</h1></STRONG> 
+        <pre><H3>           Disfruta de tu viaje </H3></pre>
+        <HR>
+        <div>
+            <pre>   Direccion: Gran Vía,Granada 18140</pre>
+            <pre>   Teléfono: 958590208</pre>
+            <p> Correo electronico: viajesparaiso@gmail.com</p>
+            <hr>
+        </div>
+
+        <div>
+            <b><h2>Servicios</h2></b>
+            <li>Hoteles</li>
+            <li>Apartamentos</li>
+            <li>Camping</li></pre>
+            <li>Cruceros</li>
+                   
+        </div>
+        <hr>
+            <pre>   Embárcate en busca de itinerarios sorprendentes, paisajes impresionantes y lugares increíbles: regálate un crucero por el Mediterráneo con Costa.</pre>
+            <hr>
+    </body>

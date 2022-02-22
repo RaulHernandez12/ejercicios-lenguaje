@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+    
+    <!DOCTYPE SOFTWARE[
+        
+        <!ELEMENT SOFTWARE (Programas)>
+          <!ELEMENT Programas (Titulo,(español|ingles),Precio,Categoria,Departamento+,Web,Caratula)>
+          <!ELEMENT Departamento (Departamento1,Departamento2)>
+          
+          
+          <!ELEMENT Titulo (#PCDATA)>
+          <!ELEMENT español EMPTY>
+          <!ELEMENT ingles EMPTY>
+          <!ELEMENT Precio (#PCDATA)>
+          <!ELEMENT Categoria (#PCDATA)>
+          <!ELEMENT Departamento1 (#PCDATA)>
+          <!ELEMENT Departamento2 (#PCDATA)>
+          <!ELEMENT Web (#PCDATA)>
+          <!ELEMENT Caratula (#PCDATA)>
+          
+            <!ATTLIST Programas codigo CDATA #IMPLIED>
+            <!ATTLIST Programas version CDATA #REQUIRED>
+            <!ATTLIST Programas año CDATA #REQUIRED>
+            <!ATTLIST Programas SO (MAC|WIN) "WIN">
+            
+    
+    ]>
+    
+    <SOFTWARE>
+          <Programas  codigo="C1" version="16.0" año="2016" SO="MAC">
+              
+              <Titulo></Titulo>
+              <español />
+              <Precio>1500€</Precio>
+              <Categoria>Ofimatica</Categoria>
+              <Descripcion>Pag.ofimatica</Descripcion>
+              <Departamento>
+                      <Departamento1></Departamento1>
+                      <Departamento2></Departamento2>
+              </Departamento>
+              <Web></Web>
+              <Caratula></Caratula>
+              
+          </Programas>
+
+    </SOFTWARE>
+    

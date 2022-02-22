@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prueba tabla</title>       
+        <meta charset="UTF-8">
+        
+    </head>
+    <body bgcolor="black"  >
+        <img src="imagenes/formulario.png" width="150px" height="150px">
+        <br>
+        <hr>
+        <br>
+        <form method="POST" >
+            <fieldset  style="background-color: #CF9082;color: white;"  > 
+                <legend><b>Datos personales</b></legend>
+                <br>
+                Nombre: <input  type="text" size="50px" ><br>
+                <br>
+                Correo electrñonico: <input size="50px" name="Correo electrónico">
+                <br>
+                <br>
+                <input type="checkbox"> ¿Quieres que te enviemos <b>publicidad</b>?
+            </fieldset>
+            <br>            
+            <hr>            
+            <br>
+            <fieldset style="background-color:#CF9082;color: whitesmoke;">
+                <legend><b>Temática y mes de vacaciones</b></legend>
+                <br>
+                <select>
+                    <option value="1">Hotel</option>
+                    <option value="2">Camping</option>
+                    <option value="3">Hostal</option>
+                </select>
+                <br>
+                <br>
+                <input type="radio" name="mes"> Julio
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="mes"> Agosto
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="mes"> Septiembre
+
+            </fieldset>
+            <br>
+            <hr>
+            <br>
+            <fieldset style="color:white;background-color: #CF9082;">
+                <legend><b>Consulta</b></legend>
+                <br>
+                <textarea style="background-color: black;color: white;" rows="20" cols="100"></textarea>
+            </fieldset>            
+            <br>
+            <hr>
+            <br>            
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" name="enviar">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset"  name="reset">
+            
+        </form>
+
+    </body>
+</html>    

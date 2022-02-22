@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>RSS de Raúl</title>
+    <link>http://www.fotosgranada.com/rss/Raul/Practica_feed5.rss</link>
+    <description>Esta es la practica de RSS</description>
+    <atom:link href="http://www.fotosgranada.com/rss/Raul/Practica_feed5.rss" rel="self" type="application/rss+xml" />
+    <language>es</language>
+    <copyright>Raúl Hernández Cabello</copyright>
+    <managingEditor>rhc0001@alu.medac.com</managingEditor>
+    <webMaster>rhc0001@alu.medac.com</webMaster>
+    <pubDate>Thu, 08 Apr 2021 18:11:14 GMT</pubDate>
+    <lastBuildDate>Tue, 13 Apr 2021 14:57:03 GMT</lastBuildDate>
+    <generator>Absolute RSS Editor</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <ttl>60</ttl>
+    <image>
+      <url>https://www.veiss.com/blog/wp-content/uploads/2011/05/canales_rss.png</url>
+      <title>RSS de Raúl</title>
+      <link>http://www.fotosgranada.com/rss/Raul/Practica_feed5.rss</link>
+      <width>50</width>
+      <height>50</height>
+    </image>
+    <item>
+      <title>Quniela</title>
+      <link>http://www.fotosgranada.com/rss/Raul/clasificacion/jornada.html</link>
+      <description>Esta es la quiniela de la jornada 38</description>
+      <enclosure url="https://cdn6.aptoide.com/imgs/8/a/c/8accf53154b5cef80fcd63b44211b1ab_icon.png" length="32994" type="image/png" />
+      <guid isPermaLink="false">5A2C7C96-97BA-43FD-B85F-53C2B47D8F3C</guid>
+      <pubDate>Tue, 13 Apr 2021 14:51:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ajedrez</title>
+      <link>http://www.fotosgranada.com/rss/Raul/Ajedrez/Ajedrez.html</link>
+      <description>Este es mi ajedrez</description>
+      <enclosure url="https://image.flaticon.com/icons/png/128/2589/2589789.png" length="2785" type="image/png" />
+      <guid isPermaLink="false">5EF2FAF5-ACB5-463F-953A-8573DE2AE66F</guid>
+      <pubDate>Thu, 08 Apr 2021 18:18:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>Frame</title>
+      <link>http://www.fotosgranada.com/rss/Raul/Ejercicioframe/ejercicio1.html</link>
+      <description>Ejercicio de frame</description>
+      <enclosure url="https://image.freepik.com/vector-gratis/periodico-vector-ilustracion-logo-icono-clipart_7688-575.jpg" length="37557" type="image/jpeg" />
+      <guid isPermaLink="false">D93FD739-660B-4484-A383-4EE3E8868AA3</guid>
+      <pubDate>Thu, 08 Apr 2021 18:18:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>Practica Final</title>
+      <link>http://www.fotosgranada.com/rss/Raul/Practicafinal/final1.html</link>
+      <description>Practica final del primer trimestre</description>
+      <enclosure url="https://image.flaticon.com/icons/png/128/2160/2160939.png" length="37557" type="image/png" />
+      <guid isPermaLink="false">83CB5EEE-BC3A-44AB-8332-3868C42F09D1</guid>
+      <pubDate>Thu, 08 Apr 2021 18:18:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>CSS3</title>
+      <link>http://www.fotosgranada.com/rss/Raul/PracticaCSS3/PracticaCSS3.html</link>
+      <description>Practica sobre CSS3</description>
+      <enclosure url="https://img.icons8.com/color/452/css3.png" length="37557" type="image/png" />
+      <guid isPermaLink="false">A0A06A67-1309-4921-BBB2-9FEFA3DD1F28</guid>
+      <pubDate>Thu, 08 Apr 2021 18:18:23 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

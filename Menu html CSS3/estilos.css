@@ -1,0 +1,36 @@
+
+ul{
+    background-color: black;
+    overflow: hidden;
+    list-style-type: none;
+    
+    
+}
+
+li{
+    float: left;
+    
+    border: solid 1px white;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    width: 100px;   
+    
+
+}
+
+#l4{
+    float: right;
+    
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+    text-indent: 15px;
+}

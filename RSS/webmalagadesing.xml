@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>WebMalagaDesing</title>
+    <link>http://www.webmalagadesign.es/rss/blog_w.rss</link>
+    <description>Blog de WebMalagaDesign con las últimas noticias relacionadas con el diseño web.</description>
+    <atom:link href="http://www.webmalagadesign.es/rss/blog_w.rss" rel="self" type="application/rss+xml" />
+    <language>es-es</language>
+    <copyright>RaúlHernández</copyright>
+    <managingEditor>rhc0001@alu.medac.es</managingEditor>
+    <pubDate>Tue, 06 Apr 2021 14:14:50 GMT</pubDate>
+    <lastBuildDate>Tue, 06 Apr 2021 14:53:40 GMT</lastBuildDate>
+    <generator>Absolute RSS Editor</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <ttl>60</ttl>
+    <image>
+      <url>http://www.webmalagadesign.es/assets/images/pngwing.com-500x309.png</url>
+      <title>WebMalagaDesing</title>
+      <link>http://www.webmalagadesign.es/rss/blog_w.rss</link>
+      <description>Ultimas noticias del blog</description>
+    </image>
+    <skipHours>
+      <hour>1</hour>
+    </skipHours>
+    <item>
+      <title>XSD</title>
+      <link>http://webmalagadesign.es/entrada1.html</link>
+      <description>Uso de extensiones para personalizar los tipos predefinidos en un XML Schema.</description>
+      <enclosure url="http://www.webmalagadesign.es/assets/images/xsd.png" length="54466" type="image/png" />
+      <guid isPermaLink="false">2BD1294F-0699-4192-9D22-4E48857EB071</guid>
+      <pubDate>Tue, 06 Apr 2021 14:39:20 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
